@@ -5,6 +5,11 @@ html, body{
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +44,10 @@ header{
 nav{
     width: 100%;
     display: flex;
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
     list-style-type: none;
     justify-content: space-evenly;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1)
 }
 
 nav li{
@@ -50,3 +56,68 @@ nav li{
     color: grey;
     padding: 0 5px;
 }
+
+.top-stories{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit;
+    margin-bottom: 50px;
+}
+
+.top img{
+    width: 100%;
+    max-height: 200px;
+}
+
+.top h2{
+    margin-bottom: 0;
+}
+
+.subtitle{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: gray;
+    font-weight: lighter; 
+}
+
+.author-info{
+    margin-bottom: 0;
+}
+
+.date{
+    margin-top: 5px;
+}
+
+.top3{
+    display: flex;
+    width: 98%;
+    height: 130px;
+    padding: 20px 10px;
+}
+
+.top3 h3{
+    margin: 0;
+}
+
+.top3 .text-container{
+    width: 70%;
+}
+
+.top3 img{
+    /* max-width: 30%; */
+    height: 100%;
+}
+
+h4{
+    width: 100%;
+    text-align: left;
+}
+
